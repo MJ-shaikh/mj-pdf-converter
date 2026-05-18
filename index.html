@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Converter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>PDF Converter Tool</h1>
+        <p>Upload your PDF and convert files easily</p>
+
+        <div class="upload-box">
+            <input type="file" id="fileInput">
+        </div>
+
+        <div class="buttons">
+            <button onclick="convertToWord()">PDF to Word</button>
+            <button onclick="convertToExcel()">PDF to Excel</button>
+        </div>
+
+        <div id="status"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
